@@ -9,5 +9,4 @@ if __name__ == '__main__':
     if response.status_code >= 400:
         print("Error code: {}".format(response.status_code))
     else:
-        print("{}".format(response.text))
-        
+        print("{}".format(response.text))        
